@@ -1,0 +1,33 @@
+body {
+    background-color: #F0F0F0;
+}
+header {
+    margin: 0;
+}
+a {
+    color: black;
+}
+.logo {
+    max-height: 105px;
+    max-width: 105px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.beginning {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.whiteBox {
+    position: absolute;
+    top: 1.5em;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
