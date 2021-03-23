@@ -31,3 +31,11 @@ a {
     width: 100%;
     background-color: white;
 }
+.col-5 {
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
