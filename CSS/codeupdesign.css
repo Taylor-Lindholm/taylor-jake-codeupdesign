@@ -31,11 +31,130 @@ a {
     width: 100%;
     background-color: white;
 }
-.circle {
-    margin: 20px 0;
+.large-circles {
+    margin: 10px 10px;
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    display: inline-block;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 10px solid;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Anton', sans-serif;
 }
+.circle-orange {
+    background-color: #e6563b;
+}
+.circle-green {
+    background-color: #7CB06C;
+}
+.circle-yellow {
+    background-color: #EB9D3A;
+}
+.circle-blue {
+    background-color: #00ABA9;
+}
+#abel {
+    font-family: 'Abel', sans-serif;
+}
+#abel2 {
+    font-family: 'Abel', sans-serif;
+}
+#anton {
+    font-family: 'Anton', sans-serif;
+}
+#anton2 {
+    font-family: 'Anton', sans-serif;
+}
+#abel3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+}
+.img {
+    box-sizing: content-box;
+    width: 80%;
+    height: 50%;
+    border: #E6E6E6 10px solid;
+    border-radius: 5px;
+}
+.icon-blue {
+    background-color: #00ABA9;
+    height: 18px;
+    width: 18px;
+}
+.icon-green {
+    background-color: #7CB06C;
+    height: 18px;
+    width: 18px;
+}
+.icon-red {
+    background-color: #e6563b;
+    height: 18px;
+    width: 18px;
+}
+.icon-orange {
+    background-color: #EB9D3A;
+    height: 18px;
+    width: 18px;
+}
+.featuredProject {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin-right: auto;
+}
+.icons {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: smaller;
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+}
+.selectWorkBox {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*small devices*/
+
+@media (min-width: 576px) {
+
+    .whiteBox {
+        position: absolute;
+        top: 2.5em;
+        height: 50px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .nav {
+        position: absolute;
+        top: 2.5em;
+        display: flex;
+        left: 10%;
+    }
+
+    .work{
+        margin: 0 135px 0 0;
+    }
+
+}
+

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>CodeUp Design</title>
     <link rel="stylesheet" href="CSS/codeupdesign.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="whiteBox"></div>
@@ -18,16 +20,16 @@
 
 <!-- title -->
 
-<h3 class="text">codeup design</h3>
+<h3 id="abel" class="text">codeup design</h3>
 
 <!--nav-->
 
-<ul class="nav justify-content-center">
+<ul id="abel2" class="nav justify-content-center mb-5">
     <li class="nav-item">
         <a class="nav-link active" href="#">SERVICES</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">WORK</a>
+        <a class="nav-link work" href="#">WORK</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="#">BLOCK</a>
@@ -37,21 +39,40 @@
     </li>
 </ul>
 <!--information-->
-<div class="text">
-<h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
+<div id="anton" class="text">
+<h1 class="mb-5">VISUAL DESIGN & WEB DEVELOPMENT</h1>
 </div>
-<div class="text">
-<h3>FROM PARK CITY, UTAH</h3>
+<div id="anton2" class="text">
+<h3 class="mb-3">FROM PARK CITY, UTAH</h3>
 </div>
 <!-- containers -->
-
-<div class="row justify-content-around">
-    <span class="circle circle-orange">Design</span>
-    <span class="circle circle-yellow">Develop</span>
+<div class="container mb-10">
+<div class="row justify-content-center">
+    <span class="circle large-circles circle-orange">Design</span>
+    <span class="circle large-circles circle-yellow">Develop</span>
 </div>
-<div class="row justify-content-around">
-    <span class="circle circle-green">Support</span>
-    <span class="circle circle-blue">Host</span>
+<div class="row justify-content-center">
+    <span class="circle large-circles circle-green mb-5">Support</span>
+    <span class="circle large-circles circle-blue mb-5">Host</span>
+</div>
+</div>
+<!--selected work-->
+
+<div class="text-center">
+    <div class="mt-5 mb-5" id="abel3">SELECTED WORK</div>
+    <div><img class="img" src="images/images/apple-ipad.jpg"></div>
+</div>
+
+<!--featured project-->
+
+<div class="selectWorkBox">
+    <div class="featuredProject mt-2">FEATURED PROJECT</div>
+        <div class="icons mt-2">
+            <span class="circle icons text-center icon-red">D</span>
+            <span class="circle icons text-center icon-orange">D</span>
+            <span class="circle icons text-center icon-green">S</span>
+            <span class="circle icons text-center icon-blue">H</span>
+        </div>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
