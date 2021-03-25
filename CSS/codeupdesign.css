@@ -186,6 +186,10 @@ h5 {
         font-size: xx-large;
         font-family: 'Anton', sans-serif;
     }
+    .line {
+        width: 80%;
+        
+    }
 
 }
 
